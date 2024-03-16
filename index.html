@@ -25,24 +25,29 @@
                     Faça login para ter acesso <br> a sua conta!
                 </p>
                 <form class="formularioLogin" action="arquivo.php" autocomplete="on" method="post">
-                    <div id="caixasLogin">
-                        <label for="iemail">
-                            <span class="material-symbols-outlined">
-                                mail
-                            </span>
-                        </label>
-                        <input id="iemail" type="email" required placeholder="Digite seu email" maxlength="40" autocomplete="email" size="35">
-                    </div>
-                    <div id="caixasLogin">
-                        <label for="ipass">
-                            <span class="material-symbols-outlined">
-                                vpn_key
-                            </span>
-                        </label>
-                        <input id="ipass" type="password" required placeholder="Digite sua senha" minlength="8" maxlength="20" autocomplete="current-password" size="35">
+                    <div class="caixaCompartilhadaImputs">
+                        <div id="caixasLogin">
+                            <label for="iemail">
+                                <span class="material-symbols-outlined">
+                                    mail
+                                </span>
+                            </label>
+                            <input id="iemail" type="email" required placeholder="                     Digite seu email"
+                                maxlength="40" autocomplete="email" size="35">
+                        </div>
+                        <div id="caixasLogin">
+                            <label for="ipass">
+                                <span class="material-symbols-outlined">
+                                    vpn_key
+                                </span>
+                            </label>
+                            <input id="ipass" type="password" required
+                                placeholder="                     Digite sua senha" minlength="8" maxlength="20"
+                                autocomplete="current-password" size="35">
+                        </div>
                     </div>
                     <input class="enviar" type="submit">
-                    <a href="#">Esqueci minha senha!</a>
+                    <a class="minhaSenha" href="#">Esqueci minha senha!</a>
                 </form>
 
             </div>
