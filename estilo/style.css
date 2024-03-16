@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #065C59;
+}
+
+html{
+    background-color: rgb(6, 92, 89);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height:650px ;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(35, 26, 26, 0.54);
+
+    transition: weigth .3s, heigth .3s;
+    transition-timing-function:ease;
+}
+
+#imagem{
+    background: rgb(1, 131, 120) url(../imagens/pexels-andre-moura-3293037.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 400px;
+}
+
+#formulario{
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1.3em;
+}
+
+.formularioLogin{
+    text-align: center;
+}
+
+#caixasLogin{
+    margin: 20px 0px;
+}
+
+.enviar{
+    padding: 3px;
+    width: 80px;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    html {
+        background-image: linear-gradient(rgb(8, 103, 100), rgb(0, 73, 55));
+    }
+
+    main {
+        width: 800px;
+    }
+
+    #imagem {
+        float: left;
+        background: rgb(1, 131, 120) url(../imagens/pexels-andre-moura-3293037.jpg);
+        background-size: cover;
+        background-position:center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 100vh;
+    }
+
+    #formulario {
+        float: right;
+    }
+
+    @media screen and (min-width: 992px){
+        html{
+            background-image: linear-gradient( rgb(0, 73, 55), rgb(8, 103, 100));
+        }
+
+        main{
+            width:1200px;
+        }
+
+        #formulario{
+            float: left;
+        }
+
+        #imagem{
+            float: right;
+           width: 600px;
+        }
+    }
+}
