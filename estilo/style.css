@@ -9,7 +9,7 @@
     color: #065C59;
 }
 
-html {
+body {
     background-color: rgb(6, 92, 89);
     height: 100vh;
     width: 100vw;
@@ -17,7 +17,7 @@ html {
 
 main {
     height: 600px;
-    width: 350px;
+    width: 290px;
     background-color: white;
     position: absolute;
     border-radius: 10px;
@@ -44,6 +44,7 @@ main {
 }
 
 h1 {
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -51,7 +52,7 @@ h1 {
 p {
     text-align: center;
     margin: 10px 0px;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .formularioLogin {
@@ -59,7 +60,7 @@ p {
 }
 
 .caixaCompartilhadaImputs {
-    width: 300px;
+    width: 250px;
     margin: auto auto 10px auto;
     padding: 5px 10px;
     border-radius: 10px;
@@ -69,7 +70,7 @@ p {
 label>span {
     color: white;
     cursor: pointer;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 #caixasLogin {
@@ -79,11 +80,11 @@ label>span {
 
 .enviar {
     padding: 7px 3px;
-    width: 80px;
+    width: 60px;
     background-color: #065C59;
     color: #fff;
     border-radius: 5px;
-    margin-right: 10px;
+    font-size: .7em;
 }
 
 .enviar:hover {
@@ -92,7 +93,7 @@ label>span {
 
 input {
     cursor: pointer;
-    width: 200px;
+    width: 180px;
     border: none;
 }
 
@@ -111,7 +112,8 @@ input {
     background-color: #065C59;
     border-radius: 5px;
     padding: 3px 3px 7px 3px;
-    width: 200px;
+    width: 185px;
+    font-size: .9em;
 }
 
 .minhaSenha:hover {
